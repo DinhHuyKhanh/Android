@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textSize="30dp"
+        android:inputType="numberSigned"
+        app:layout_constraintTop_toTopOf="@+id/txtNumberOne"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/white">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn7"
+                android:layout_width="103dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:background="@color/gainsboro"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="60dp"
+                app:iconTint="#B6B3B3"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn8"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:layout_marginLeft="5px"
+                android:background="@color/gainsboro"
+                android:textColor="@color/black"
+                android:text="8"
+                android:textSize="60dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn9"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:layout_marginLeft="5px"
+                android:background="@color/gainsboro"
+                android:textColor="@color/black"
+                android:text="9"
+                android:textSize="60dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDiv"
+                android:layout_width="100dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:layout_marginLeft="5px"
+                android:layout_marginRight="3px"
+                android:background="@color/gainsboro"
+                android:textColor="@color/black"
+                android:text="/" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn4"
+                android:layout_width="103dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:layout_marginLeft="3px"
+                android:background="@color/gainsboro"
+                android:text="4"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn5"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="5"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn6"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="6"
+                 />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMul"
+                android:layout_width="100dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:layout_marginLeft="5px"
+                android:layout_marginRight="3px"
+                android:background="@color/gainsboro"
+                android:text="*"
+              />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
+                android:layout_width="103dp"
+                android:layout_marginLeft="3px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="1"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="2"
+                 />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn3"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="3"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSub"
+                android:layout_width="100dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:layout_marginLeft="5px"
+                android:layout_marginRight="3px"
+                android:background="@color/gainsboro"
+                android:text="-"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDots"
+                android:layout_width="103dp"
+                android:layout_marginLeft="3px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="."
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn0"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="0"
+              />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnC"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:background="@color/gainsboro"
+                android:text="C"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAdd"
+                android:layout_width="100dp"
+                android:layout_marginLeft="5px"
+                android:layout_height="95dp"
+                android:layout_marginTop="5px"
+                android:textSize="60dp"
+                android:layout_marginRight="3px"
+                android:background="@color/gainsboro"
+                android:text="+"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEqual"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gainsboro"
+        android:text="="
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        />
+
+
+</LinearLayout>
