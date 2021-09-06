@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setOnClickButton(Button btn, String str) {
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -103,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 } else editTextNumber.setText(editTextNumber.getText() + str);
             }
         });
+
     }
 
     private void setOnClickButtonEqual() {
@@ -197,4 +199,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
