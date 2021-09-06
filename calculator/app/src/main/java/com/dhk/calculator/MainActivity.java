@@ -12,7 +12,7 @@ import java.util.Objects;
 import java.util.Vector;
 /**
  * @Author: Đinh Huy Khánh
- * created: 4.09.2021 14:30
+ * @created: 4.09.2021 14:30
  **/
 public class MainActivity extends AppCompatActivity {
 
